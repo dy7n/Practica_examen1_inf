@@ -1,0 +1,20 @@
+ 1804  mkdir Actividades
+ 1805  mkdir 'Deportes de equipo' 'Deportes acuaticos' 'Deportes extremos' 'Deportes de mesa' 'Deportes mentales'
+ 1806  ls
+ 1807  mv Deportes* ./Actividades/
+ 1808  ls
+ 1809  ls Actividades/
+ 1810  cd Actividades/
+ 1811  touch ./Deportes\ de\ equipo/Basquet
+ 1812  touch ./Deportes\ mentales/Ajedrez.txt
+ 1813  touch ./Deportes\ de\ mesa/'Ping pong'
+ 1814  ls -R
+ 1815  ls -a
+ 1816  rm -r Deportes\ extremos/
+ 1817  ls
+ 1818  pwd
+ 1819  git init 
+ 1820  git remote add origin git@github.com:dy7n/Practica_examen1_inf.git
+ 1821  git remote -v
+ 1822  ls -R
+ 1823  history 30 > comandos.txt
